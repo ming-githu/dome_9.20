@@ -6,6 +6,10 @@ public class lin9_20 {
 //        System.out.println("222");
 //        自动转换
         double d = 10;
-        System.out.println(d);
+        System.out.println(d);//10.0
+//        强制转换
+//        把一个表示数据范围大的赋值给表示数据范围小的变量
+        int i = (int) d;
+        System.out.println(i);//10
     }
 }
