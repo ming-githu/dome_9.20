@@ -37,6 +37,7 @@ public class switchdemo {
 
     public static void main(String[] args) {
 //        键盘输入1-7 ，输出对应的星期一到星期日
+//        多种情况判断switchq语句
         int week;
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入1-7其中一个数字");
