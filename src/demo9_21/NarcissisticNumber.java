@@ -10,7 +10,7 @@ public class NarcissisticNumber {
 
     public void Numbers() {
         int ones, tens, hundre;
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
             ones = i % 10;
             tens = i / 10 % 10;
             hundre = i / 10 / 10 % 10;
