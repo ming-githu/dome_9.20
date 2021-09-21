@@ -1,12 +1,11 @@
 package demo9_21;
 
-public class ArrayDemo {
+public class ArrayStatic {
     public static void main(String[] args) {
-        int arr[] = new int[3];
+        int[] arr = {1, 2, 3, 4, 5, 6};
+        System.out.println(arr);
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = i;
             System.out.print(arr[i] + ",");
         }
-        System.out.println(arr);
     }
 }
